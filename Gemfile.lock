@@ -1,0 +1,122 @@
+--- 
+hash: 64bf2723827f4074d746764c16a29381077ca9c7
+sources: []
+
+specs: 
+- rack-fiber_pool: 
+    version: 0.5.0
+- i18n: 
+    version: 0.3.3
+- memcache-client: 
+    version: 1.8.2
+- tzinfo: 
+    version: 0.3.16
+- daemons: 
+    version: 1.0.10
+- tmail: 
+    version: 1.2.7.1
+- yajl-ruby: 
+    version: 0.7.3
+- mime-types: 
+    version: "1.16"
+- rake: 
+    version: 0.8.7
+- addressable: 
+    version: 2.1.1
+- mocha: 
+    version: 0.9.8
+- builder: 
+    version: 2.1.2
+- activesupport: 
+    version: 2.3.5
+- activerecord: 
+    version: 2.3.5
+- activeresource: 
+    version: 2.3.5
+- actionpack: 
+    version: 2.3.5
+- actionmailer: 
+    version: 2.3.5
+- eventmachine: 
+    version: 0.12.10
+- thin: 
+    version: 1.2.7
+- rack: 
+    version: 1.0.1
+- postgres-pr: 
+    version: 0.6.1
+- em_postgresql: 
+    version: 0.2.1
+- rails: 
+    version: 2.3.5
+- em-http-request: 
+    version: 0.2.7
+dependencies: 
+  em-http-request: 
+    version: = 0.2.7
+    group: 
+    - :default
+  rails: 
+    version: = 2.3.5
+    group: 
+    - :default
+  postgres-pr: 
+    version: = 0.6.1
+    group: 
+    - :default
+  eventmachine: 
+    version: = 0.12.10
+    group: 
+    - :default
+  em_postgresql: 
+    version: = 0.2.1
+    group: 
+    - :default
+  rake: 
+    version: = 0.8.7
+    group: 
+    - :default
+  thin: 
+    version: = 1.2.7
+    group: 
+    - :default
+  rack: 
+    version: ">= 1.0.0"
+    group: 
+    - :default
+  rack-fiber_pool: 
+    version: ">= 0.5.0"
+    group: 
+    - :default
+  mime-types: 
+    version: = 1.16
+    group: 
+    - :default
+  tmail: 
+    version: = 1.2.7.1
+    group: 
+    - :default
+  builder: 
+    version: = 2.1.2
+    group: 
+    - :default
+  memcache-client: 
+    version: = 1.8.2
+    group: 
+    - :default
+  tzinfo: 
+    version: = 0.3.16
+    group: 
+    - :default
+  i18n: 
+    version: = 0.3.3
+    group: 
+    - :default
+  yajl-ruby: 
+    version: = 0.7.3
+    group: 
+    - :default
+  mocha: 
+    version: = 0.9.8
+    group: 
+    - :test

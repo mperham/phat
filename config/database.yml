@@ -1,0 +1,19 @@
+base: &base
+  adapter: em_postgresql
+  host: localhost
+  port: 5432
+  database: onespot_test
+  username: mike
+  password: password
+
+development:
+  <<: *base
+
+production:
+  <<: *base
+
+staging:
+  <<: *base
+
+test:
+  <<: *base

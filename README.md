@@ -4,7 +4,7 @@ Phat
 An asynchronous sample Rails app designed to run in thin.
 
 Phat comes pre-configured to use Fiber-enabled asynchronous libraries for maximum scalability:
-em_postgresql, memcache-client, em-resolv-replace and em-http-request.
+em_postgresql, memcache-client and em-resolv-replace.
 
 Usage
 ==========

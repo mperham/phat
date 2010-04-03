@@ -1,42 +1,42 @@
 --- 
-hash: 2c0189aa610cd85e3236b6e3b0a5d297d0322291
+hash: f0e934404c34df04fe0d7327cad5728f0f111b2d
 sources: []
 
 specs: 
-- rack-fiber_pool: 
-    version: 0.5.0
-- i18n: 
-    version: 0.3.3
-- memcache-client: 
-    version: 1.8.2
-- tzinfo: 
-    version: 0.3.16
 - daemons: 
     version: 1.0.10
-- tmail: 
-    version: 1.2.7.1
-- yajl-ruby: 
-    version: 0.7.3
-- mime-types: 
-    version: "1.16"
-- rake: 
-    version: 0.8.7
-- addressable: 
-    version: 2.1.1
-- mocha: 
-    version: 0.9.8
-- builder: 
-    version: 2.1.2
+- tzinfo: 
+    version: 0.3.16
 - activesupport: 
     version: 2.3.5
 - activerecord: 
     version: 2.3.5
-- activeresource: 
-    version: 2.3.5
 - actionpack: 
     version: 2.3.5
+- activeresource: 
+    version: 2.3.5
+- rake: 
+    version: 0.8.7
+- mocha: 
+    version: 0.9.8
+- em-resolv-replace: 
+    version: 1.0.0
 - actionmailer: 
     version: 2.3.5
+- memcache-client: 
+    version: 1.8.2
+- builder: 
+    version: 2.1.2
+- tmail: 
+    version: 1.2.7.1
+- mime-types: 
+    version: "1.16"
+- yajl-ruby: 
+    version: 0.7.3
+- rack-fiber_pool: 
+    version: 0.9.0
+- i18n: 
+    version: 0.3.3
 - eventmachine: 
     version: 0.12.10
 - thin: 
@@ -49,13 +49,7 @@ specs:
     version: 0.3.0
 - rails: 
     version: 2.3.5
-- em-http-request: 
-    version: 0.2.7
 dependencies: 
-  em-http-request: 
-    version: = 0.2.7
-    group: 
-    - :default
   rails: 
     version: = 2.3.5
     group: 
@@ -85,7 +79,11 @@ dependencies:
     group: 
     - :default
   rack-fiber_pool: 
-    version: ">= 0.5.0"
+    version: ">= 0.9.0"
+    group: 
+    - :default
+  em-resolv-replace: 
+    version: = 1.0.0
     group: 
     - :default
   mime-types: 

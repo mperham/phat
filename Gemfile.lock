@@ -1,5 +1,5 @@
 --- 
-hash: 64bf2723827f4074d746764c16a29381077ca9c7
+hash: 2c0189aa610cd85e3236b6e3b0a5d297d0322291
 sources: []
 
 specs: 
@@ -46,7 +46,7 @@ specs:
 - postgres-pr: 
     version: 0.6.1
 - em_postgresql: 
-    version: 0.2.1
+    version: 0.3.0
 - rails: 
     version: 2.3.5
 - em-http-request: 
@@ -69,7 +69,7 @@ dependencies:
     group: 
     - :default
   em_postgresql: 
-    version: = 0.2.1
+    version: = 0.3.0
     group: 
     - :default
   rake: 

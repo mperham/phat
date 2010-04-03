@@ -5,6 +5,7 @@ base: &base
   database: onespot_test
   username: mike
   password: password
+  schema_search_path: bdu,public
 
 development:
   <<: *base

@@ -1,4 +1,7 @@
-EventMachine works best when you have unpredictable network delays.
+# A Simple Performance Test
+
+EventMachine works best when you have significant network latency.  A simple
+test with database access over a coffeeshop WiFi:
 
     Without EventMachine:
     Requests per second:    4.39 [#/sec] (mean)
@@ -6,6 +9,8 @@ EventMachine works best when you have unpredictable network delays.
     With EventMachine:
     Requests per second:    21.31 [#/sec] (mean)
 
+
+## More detail:
 
 Without EventMachine, where database is across a slow network (aka coffeeshop WiFi)
 

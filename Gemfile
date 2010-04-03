@@ -1,4 +1,3 @@
-gem 'em-http-request', '0.2.7'
 gem 'rails', '2.3.5'
 gem 'postgres-pr', '0.6.1'
 gem 'eventmachine', '0.12.10'
@@ -6,7 +5,7 @@ gem 'em_postgresql', '0.3.0'
 gem 'rake', '0.8.7'
 gem 'thin', '1.2.7'
 gem 'rack', '>=1.0.0'
-gem 'rack-fiber_pool', '>= 0.5.0'
+gem 'rack-fiber_pool', '>= 0.9.0'
 
 # activesupport dependencies
 gem 'mime-types', '1.16'

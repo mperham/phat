@@ -6,7 +6,7 @@ gem 'rake', '0.8.7'
 gem 'thin', '1.2.7'
 gem 'rack', '>=1.0.0'
 gem 'rack-fiber_pool', '>= 0.9.0'
-gem 'em-resolv-replace', '1.0.0'
+gem 'em-resolv-replace', '1.1.0'
 
 # activesupport dependencies
 gem 'mime-types', '1.16'

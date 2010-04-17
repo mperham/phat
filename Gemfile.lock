@@ -1,5 +1,5 @@
 --- 
-hash: 9fca5e5ba9c9be7831c017a1f42d11e0e4efd541
+hash: 466208bee7d29d88f7605944be5de569d89e6acc
 sources: []
 
 specs: 
@@ -26,9 +26,9 @@ specs:
 - eventmachine: 
     version: 0.12.10
 - postgres-pr: 
-    version: 0.6.1
+    version: 0.6.3
 - em_postgresql: 
-    version: 0.3.0
+    version: 0.4.0
 - i18n: 
     version: 0.3.3
 - memcache-client: 
@@ -55,7 +55,7 @@ dependencies:
     group: 
     - :default
   postgres-pr: 
-    version: = 0.6.1
+    version: = 0.6.3
     group: 
     - :default
   eventmachine: 
@@ -63,7 +63,7 @@ dependencies:
     group: 
     - :default
   em_postgresql: 
-    version: = 0.3.0
+    version: = 0.4.0
     group: 
     - :default
   rake: 
